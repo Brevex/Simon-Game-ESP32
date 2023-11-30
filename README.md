@@ -2,7 +2,7 @@
 
 <h2> &#128269; About the project </h2><br>
 
-<p>A Simon Game made using the Arduino ESP32 platform in the Wokwi IoT project simulation environment. Play the game <a href="https://wokwi.com/projects/379952160077169665" target="_blank">clicking here</a>.</p>
+<p>A Simon Game made using the Arduino ESP32 platform in the Wokwi IoT project simulation environment. Play the game <a href="https://wokwi.com/projects/379952160077169665" target="_blank">clicking here</a>.</p><br>
 
 <h2> &#128302; Technologies Used </h2><br>
 
@@ -10,7 +10,7 @@
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=arduino" />
   </a>
-</p>
+</p><br>
 
 <br><h2> &#128161; Program Functions </h2>
 
