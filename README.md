@@ -14,13 +14,17 @@
 
 <br><h2> &#128161; Program Functions </h2>
 
-<img align = "center" src="https://github.com/Brevex/Simon-Game-ESP32/blob/main/readme%20images/circuit.png" alt="Circuit">
-
 <br>
 <details>
-	<summary>variables</summary
-  	<img align = "center" src="https://github.com/Brevex/Simon-Game-ESP32/blob/main/readme%20images/variables.png" alt="variables"><br>
-  	<ul>
+	<summary>circuit</summary><br>
+  	<img align = "center" src="https://github.com/Brevex/Simon-Game-ESP32/blob/7e130177e10c060f21411417d523ab1dce414511/readme%20images/circuit.png" alt="circuit"><br><br>
+	<p>Project circuit. Build on Wokwi.</p>
+</details>
+
+<details>
+	<summary>variables</summary><br>
+  	<img align = "center" src="https://github.com/Brevex/Simon-Game-ESP32/blob/7e130177e10c060f21411417d523ab1dce414511/readme%20images/variables.png" alt="variables"><br><br>
+	<ul>
 	    <li><code>leds [ ]</code>: It's an array that stores the pins of the LEDs used in the game</li>
 	    <li><code>bts [ ]</code>: It's an array that stores the button pins corresponding to the LEDs</li>
 	    <li><code>labels [ ]</code>: It's an array of strings that contains the labels (colors) associated with the LEDs</li>
@@ -30,31 +34,31 @@
 </details>
 
 <details>
-	<summary>leds</summary
-	<img align = "center" src="https://github.com/Brevex/Simon-Game-ESP32/blob/main/readme%20images/led.png" alt="leds"><br>
-  	<p>This task is responsible for controlling the LEDs and detecting button presses. A for loop is used to turn off all LEDs. 
+	<summary>leds</summary><br>
+	<img align = "center" src="https://github.com/Brevex/Simon-Game-ESP32/blob/main/readme%20images/led.png" alt="leds"><br><br>
+	<p>This task is responsible for controlling the LEDs and detecting button presses. A for loop is used to turn off all LEDs. 
   	Another for loop checks whether a button corresponding to an LED has been pressed. If yes, the LED is lit, a message is 
   	printed on the console (Serial), and the index of the pressed button is sent to the sequenceQueue queue.</p>
 </details>
 
 <details>
-	<summary>simonGame</summary
-	<img align = "center" src="https://github.com/Brevex/Simon-Game-ESP32/blob/main/readme%20images/game.png" alt="game"><br>
+	<summary>simonGame</summary><br>
+	<img align = "center" src="https://github.com/Brevex/Simon-Game-ESP32/blob/main/readme%20images/game.png" alt="game"><br><br>
   	<p>The simonGame task controls the Simon game. Generates a random sequence of buttons for each round and displays this sequence by flashing the corresponding LEDs. 
   	Uses the sequenceQueue queue to receive the buttons pressed by the user and checks if the sequence is correct. Prints the score and ends the game if the sequence is incorrect. 
   	Increments the score, waits 2 seconds before the next round and increments the round number.</p>
 </details>
 
 <details>
-	<summary>setup</summary
-	<img align = "center" src="https://github.com/Brevex/Simon-Game-ESP32/blob/main/readme%20images/setup.png" alt="setup"><br>
+	<summary>setup</summary><br>
+	<img align = "center" src="https://github.com/Brevex/Simon-Game-ESP32/blob/main/readme%20images/setup.png" alt="setup"><br><br>
   	<p>Configures serial communication and initializes the queue and mutex. Configures the LED pins as outputs and the button pins as pull-up inputs. 
   	Creates and starts the led and simonGame tasks.</p>
 </details>
 
 <details>
-	<summary>loop</summary
-	<img align = "center" src="https://github.com/Brevex/Simon-Game-ESP32/blob/main/readme%20images/loop.png" alt="loop"><br>
+	<summary>loop</summary><br>
+	<img align = "center" src="https://github.com/Brevex/Simon-Game-ESP32/blob/main/readme%20images/loop.png" alt="loop"><br><br>
   	<p>The loop function is empty because the main logic of the program is in the tasks created in setup.</p>
 </details>
 
