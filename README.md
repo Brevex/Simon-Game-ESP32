@@ -10,7 +10,7 @@
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=arduino" />
   </a>
-</p><br>
+</p>
 
 <br><h2> &#128161; Program Functions </h2>
 
