@@ -13,7 +13,6 @@ void led(void *pvParameters)
     for (int i = 0; i < 4; i++)
     {
       digitalWrite(leds[i], LOW);
-      delay(150);
     }
 
     for (int i = 0; i < 4; i++)
