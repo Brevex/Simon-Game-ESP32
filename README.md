@@ -17,7 +17,7 @@
 <br>
 <details>
 	<summary>circuit</summary><br>
-  	<img align = "center" src="https://github.com/Brevex/Simon-Game-ESP32/blob/7e130177e10c060f21411417d523ab1dce414511/readme%20images/circuit.png" alt="circuit"><br><br>
+  	<img align = "center" src="https://github.com/Brevex/Simon-Game-ESP32/blob/10970f59c60db01da064faede70820c7adb676b0/readme%20images/circuit.png" alt="circuit"><br><br>
 	<p>Project circuit. Build on Wokwi.</p>
 </details>
 
