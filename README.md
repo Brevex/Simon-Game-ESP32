@@ -2,14 +2,14 @@
 
 <h2> &#128269; About the project </h2><br>
 
-<p>A Simon Game made using the Arduino ESP32 platform in the Wokwi IoT project simulation environment.</p><br>
+<p>A Simon Game made using the Arduino ESP32 platform in the Wokwi IoT project simulation environment. The game 
+consists of memorizing a sequence of colors that is increased by +1 each round.</p><br>
 
 <h2> &#127918; How to Play </h2><br>
 
 <p align = "center">| PLAY BY <a href="https://wokwi.com/projects/379952160077169665" target="_blank">CLICKING HERE</a> |</p><br>
 
-<p>The simon game consists of memorizing a sequence of colors that is increased by +1 each round. Conventionally, the game 
-repeats the sequence from the previous round and increases it, but to increase the challenge, this version uses a completely new sequence each round.</p><br>
+<p>Conventionally, the Simon Game repeats the sequence from the previous round and increases it, but to increase the challenge, this version uses a completely new sequence each round.</p><br>
 
 <ul>
     <li>The game has 10 rounds of random colors;</li>
