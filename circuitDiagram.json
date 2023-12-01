@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "author": "Eduardo Nogueira",
+  "author": "Breno Barbosa",
   "editor": "wokwi",
   "parts": [
     { "type": "wokwi-breadboard-half", "id": "bb1", "top": -41.4, "left": -342.8, "attrs": {} },
