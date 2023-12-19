@@ -1,4 +1,4 @@
-<h1 align = "center"> Simon-Game-ESP32 </h1><br>
+<h1 align = "center"> Simon Game ESP32 </h1><br>
 
 <h2> &#128269; About the project </h2><br>
 
